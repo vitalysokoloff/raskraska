@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Raskraska")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72070769610ca160d386b9d1176f386e50545c97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6153690f5a3f42acd5a1848ec63e7a1195ba148")]
 [assembly: System.Reflection.AssemblyProductAttribute("Raskraska")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Raskraska")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
