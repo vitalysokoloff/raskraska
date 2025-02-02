@@ -1,5 +1,6 @@
 using System.Drawing;
 using ClosedXML.Excel;
+using Microsoft.Win32.SafeHandles;
 using Svg;
 
 namespace Raskraska.Engine;
@@ -114,6 +115,23 @@ public class Core
         {
             Console.WriteLine("Данной палитры не существует!");
         }        
+    }
+
+    public void SaveAsNumbers()
+    {
+        SvgElementCollection collection = _svgDocument.Children;
+        SvgElement element1 = new SvgText("wqewq");
+        for (int i = 0; i < collection.Count; i++)
+        {
+            SvgElement element = collection.ElementAt(i);
+            string x;
+            if (element.TryGetAttribute("x", out x))
+            {
+                
+            }
+        }
+        
+        _svgDocument.Write("test.svg");
     }
 
     private void LoadPalettes()
