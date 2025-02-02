@@ -16,7 +16,7 @@ public class App
     public void Start()
     {
         _core.OpenSvg("test.svg");
-        _core.ToPaletteColors(CompareType.Grayscale);    
+        _core.SaveAsNumbers();    
         
         Thread drawing = new Thread(new ThreadStart(Draw));
         Thread updating = new Thread(new ThreadStart(Update)); 
