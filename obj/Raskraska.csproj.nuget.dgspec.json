@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\code\\raskraska\\raskraska\\Raskraska.csproj": {}
+    "H:\\source\\C#\\raskraska\\Raskraska.csproj": {}
   },
   "projects": {
-    "C:\\code\\raskraska\\raskraska\\Raskraska.csproj": {
+    "H:\\source\\C#\\raskraska\\Raskraska.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\raskraska\\raskraska\\Raskraska.csproj",
+        "projectUniqueName": "H:\\source\\C#\\raskraska\\Raskraska.csproj",
         "projectName": "Raskraska",
-        "projectPath": "C:\\code\\raskraska\\raskraska\\Raskraska.csproj",
-        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\raskraska\\raskraska\\obj\\",
+        "projectPath": "H:\\source\\C#\\raskraska\\Raskraska.csproj",
+        "packagesPath": "C:\\Users\\Vitaly\\.nuget\\packages\\",
+        "outputPath": "H:\\source\\C#\\raskraska\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Vitaly\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -36,13 +36,22 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.104.2, )"
+            },
+            "Svg": {
+              "target": "Package",
+              "version": "[3.4.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -59,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
